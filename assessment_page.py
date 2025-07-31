@@ -95,8 +95,8 @@ def show_assessment_page():
 
 [data-testid="stSelectbox"] input {
     height: 68px;
-    font-size: 18px;
-    padding: 10px 15px;
+    font-size: 20px;
+    padding: 15px 20px 10px 15px;
     line-height: 1.2;
 }
 
