@@ -93,11 +93,12 @@ def show_assessment_page():
     align-items: center;
 }
 
-[data-testid="stSelectbox"] input {
-    height: 68px;
+[data-testid="stSelectbox"] div[data-baseweb="select"] > div > div {
     font-size: 20px;
     padding: 15px 20px 10px 15px;
-    line-height: 1.2;
+    height: 68px;
+    display: flex;
+    align-items: center;
 }
 
     .stSlider {
